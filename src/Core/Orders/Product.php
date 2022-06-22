@@ -26,6 +26,11 @@ class Product
         return $this->price;
     }
 
+    public function getTotal() :int
+    {
+        return $this->total;
+    }
+
     public function total() :float
     {
         return $this->price * $this->total;
